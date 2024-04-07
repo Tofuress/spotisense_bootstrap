@@ -1,0 +1,225 @@
+*{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    color: aliceblue;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,9,121,1) 21%, rgba(179,134,38,1) 49%, rgba(13,133,43,1) 77%, rgba(20,50,0,1) 100%);
+	background-size: 600% 3000%;
+	animation: gradient 30s ease infinite;
+	width: 100%;
+	height: 100%;
+}
+
+.intro{
+    background: #070707;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.row{
+    color: aliceblue;
+}
+.log_intro{
+    text-align: center;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 128px;
+}
+.aintplay{
+    text-align: center;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar{
+    background: #2B2B2B;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.intro-footer{
+    margin: 138px auto 0 auto;
+    text-align: center;
+}
+/*
+.row{
+    margin: 0 0 0 0;
+    background: #070707;
+    width: 80%;
+    min-height: 100vh;
+}
+*/
+.black{
+    color-scheme: aliceblue;
+}
+.row_track{
+    padding: 10px;
+    color: black;
+    background-image: url('check.jpg');
+    background-size: cover;
+    width: 300px;
+}
+
+.row_artist{
+    padding: 10px;
+    color: black;
+    background-image: url('check.jpg');
+    background-size: cover;
+    width: 300px;
+}
+
+.check{
+    margin-left: 160px;
+    margin-right: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    padding-left: 800px;
+    padding-right: 200px;
+    background: #070707;
+    width: 80%;
+    min-height: 100vh;
+    padding: 20px;
+}
+.spoti_btn{
+    color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+ul li a{
+    font-weight:900;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 32px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    margin: 35px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.index-copyright{
+    margin-top: 50px;
+}
+.progress-bar {
+    background-color: #007bff; /* Цвет прогресс-бара */
+    color: white; /* Цвет текста внутри прогресс-бара */
+    border-radius: 10px;
+  }
+
+.progress{
+    margin-top: 10px;
+}
+
+.ready{
+    text-align: center;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 48px;
+}
+
+.ready_btn{
+    display: flex;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 39px auto 0px auto;
+	outline: none;
+	border: none;  
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+	background-color: #7FB069;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+
+.ready_btn:hover {
+	background-color: #759467;
+}
+
+.btn-update{
+    display: flex;	
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 20px auto 0px auto;
+	outline: none;
+	border: none;  
+	height: 32px;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: none;
+	color: black;
+	background-color: #7FB069;
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+}
+img{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    padding: center 25px auto 25px;
+}
+
+
+a{
+    text-decoration: none;
+    outline: none;
+    color: black;
+}

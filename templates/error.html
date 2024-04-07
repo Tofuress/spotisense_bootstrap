@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p>Какая-то ошибка...</p>
+<div align="center">
+	<form action="/index">
+		<button type="submit" class="btn btn-primary ld-over-full" onclick="this.classList.toggle('running')" style="background-color: #05386B">
+			Пожалуйста, попробуйте снова.
+			<div class="ld ld-ring ld-spin"></div>
+		</button>
+	</form>
+</div>
+{% endblock %}
