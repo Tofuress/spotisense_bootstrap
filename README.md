@@ -2,7 +2,7 @@
 проект spotisense. сбор статистики spotify с помощью Python, Spotify API, Flask, Bootstrap
 
 Для запуска сервера на своём компьтере
-1. скачайте Planet VPN
+1. скачайте Adguard VPN
 2. запустите его и подключитесь
 3. скачайте архив с проектом и распакуйте
 4. установите нужные pip библиотеки из requirements.txt
